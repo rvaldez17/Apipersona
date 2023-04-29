@@ -57,9 +57,7 @@ public class Persona implements Serializable {
         this.telefono = telefono;
     }
 
-    public int getEdad() {
-        return edad;
-    }
+    public int getEdad() { return edad;}
 
     public void setEdad(int edad) {
         this.edad = edad;
